@@ -1,0 +1,1 @@
+{"FailInfos":[{"Message":"请检查UniqueId和ContractType，该记录没有必传文件","MustFile":"","UniqueId":"BCF02-150228-121280"}],"Status":{"IsSuccess":true,"ResponseCode":"0000","ResponseMessage":null,"WarningMessage":null}}

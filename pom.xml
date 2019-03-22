@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.dinfoSuccesCom</groupId>
+    <artifactId>dinfoSuccesCom</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>dsc-dscstart</module>
+        <module>dsc-common</module>
+    </modules>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <env>dev</env>
+                <dsc-common-version>${project.parent.version}</dsc-common-version>
+                <dsc-dscstart-version>${project.parent.version}</dsc-dscstart-version>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>test</id>
+            <properties>
+                <env>test</env>
+                <dsc-common-version>2.1-SNAPSHOT</dsc-common-version>
+                <dsc-dscstart-version>2.1-SNAPSHOT</dsc-dscstart-version>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>beta</id>
+            <properties>
+                <env>beta</env>
+                <dsc-common-version>3.1-SNAPSHOT</dsc-common-version>
+                <dsc-dscstart-version>3.1-SNAPSHOT</dsc-dscstart-version>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>product</id>
+            <properties>
+                <env>product</env>
+                <dsc-common-version>1.0.0</dsc-common-version>
+                <dsc-dscstart-version>1.0.0</dsc-dscstart-version>
+            </properties>
+        </profile>
+    </profiles>
+
+    <properties>
+        <junit.version>4.12</junit.version>
+        <spring.version>4.3.1.RELEASE</spring.version>
+        <dubbo.version>2.6.5</dubbo.version>
+        <slf4j.version>1.7.12</slf4j.version>
+        <mybatis.version>3.4.1</mybatis.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
+        <jxl.version>2.6.12</jxl.version>
+        <fluent-hc.version>4.5.6</fluent-hc.version>
+        <httpmime.version>4.5.7</httpmime.version>
+        <json-lib.version>2.4</json-lib.version>
+        <log4j-over-slf4j.version>1.7.25</log4j-over-slf4j.version>
+        <spring-web.version>5.1.2.RELEASE</spring-web.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>LATEST</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>fluent-hc</artifactId>
+                <version>${fluent-hc.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
+            <dependency>
+                <groupId>org.apache.httpcomponents</groupId>
+                <artifactId>httpmime</artifactId>
+                <version>${httpmime.version}</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+            <!--加入classifier元素来下载扩展包json-lib-2.4-jdk15.jar-->
+            <dependency>
+                <groupId>net.sf.json-lib</groupId>
+                <artifactId>json-lib</artifactId>
+                <version>${json-lib.version}</version>
+                <classifier>jdk15</classifier>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/org.slf4j/log4j-over-slf4j -->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>log4j-over-slf4j</artifactId>
+                <version>${log4j-over-slf4j.version}</version>
+            </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring-web.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+
+    </dependencies>
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>maven-releases</id>
+            <name>Releases</name>
+            <url>http://localhost:8088/repository/maven-releases/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </repository>
+        <snapshotRepository>
+            <id>maven-snapshots</id>
+            <name>Snapshot</name>
+            <url>http://localhost:8088/repository/maven-snapshots/</url>
+            <uniqueVersion>true</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+
+
+</project>
