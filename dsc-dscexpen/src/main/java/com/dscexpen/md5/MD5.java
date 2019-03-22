@@ -6,9 +6,7 @@ import java.security.MessageDigest;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
- * Created by Leon on 17/8/16.
- */
+
 public class MD5 {
 
     public static String encoderMd5(String string) {

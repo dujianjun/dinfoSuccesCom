@@ -10,13 +10,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-05-10  14:27  星期四
- * version 1.0
- */
+
 public class ChineseWorkDay {
 private  static    Logger logger = Logger.getLogger(ChineseWorkDay.class);
 /**
@@ -266,7 +260,7 @@ private  String calendar;
         if(today.isWorkday()&&!yestoday.isWorkday()){
             Date startDate = ChineseWorkDay.chaekDate(ca0.getTime());
             Date endDate = ca0.getTime();
-            logger.info("执行节假日job： " + simpleDateFormat.format(startDate) + "-->" + simpleDateFormat.format(endDate) + "(不包括)");
+            logger.info("11： " + simpleDateFormat.format(startDate) + "-->" + simpleDateFormat.format(endDate) + "(不包括)");
 
         }else if(today.isWorkday()&&yestoday.isWorkday()){
             logger.info("执行正常job： " + simpleDateFormat.format(ca0.getTime()));

@@ -8,7 +8,7 @@ public class Enum {
 
 
     public static void main(String[] args)  {
-        String name = FundFlowTypeEnum.保证金_收.name();
+        String name = FundFlowTypeEnum.aa.name();
         System.out.println(name);
 
 

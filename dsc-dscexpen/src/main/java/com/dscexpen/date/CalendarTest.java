@@ -8,13 +8,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-01-18  14:28  星期四
- * version 1.0
- */
+
 public class CalendarTest {
 
     /**
