@@ -1,12 +1,6 @@
 package com.dscexpen.oa;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-06-08  15:14  星期五
- * version 1.0
- */
+
 public class ShuXingTest {
 
 

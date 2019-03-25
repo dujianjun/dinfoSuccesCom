@@ -8,12 +8,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-/**
- * @ClassName: PropertyUtil
- * @Description: 读取配置文件工具类
- * @author 
- * @date 2016-1-13 上午11:39:20
- */
+
 public class PropertyUtil {
 	private static Properties p = new Properties();
 	//static String path1=new PropertyUtil().getClass().getResource("/").getPath()+"config.properties";

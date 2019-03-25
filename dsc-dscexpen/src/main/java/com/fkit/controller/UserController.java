@@ -10,13 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-03-27  17:51  星期二
- * version 1.0
- */
+
 
 @RestController
 @RequestMapping(value = "/user")

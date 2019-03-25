@@ -4,13 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2019-03-19  14:52  星期二
- * version 1.0
- */
+
 public class LambdTest {
 
     public static void main(String[]agrs){

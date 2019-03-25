@@ -5,13 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-07-12  17:37  星期四
- * version 1.0
- */
+
 public class TimeUtils {
 
     public static final SimpleDateFormat YYYYMMDD_HHMMSS = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

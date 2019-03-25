@@ -8,14 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 
-/**
- * 文 件 名 : DataCache.java<br>
- * 版 本 号 : <br>
- * 作 者 : zhengteng<br>
- * 功能描述 : 数据缓存池<br>
- * 函数列表 :<br>
- * 修改历史 :<br>
- **/
+
 public class DataCache {
 
     public static Map<String,String> dataMap= null;

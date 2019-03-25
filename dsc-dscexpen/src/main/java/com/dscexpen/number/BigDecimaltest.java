@@ -5,13 +5,7 @@ import org.junit.Test;
 import java.math.BigDecimal;
 import java.text.NumberFormat;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-02-02  14:12  星期五
- * version 1.0
- */
+
 public class BigDecimaltest {
 
 

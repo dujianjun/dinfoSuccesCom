@@ -3,13 +3,7 @@ package com.dscexpen.sort;
 import java.lang.reflect.Method;
 import java.util.Comparator;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-07-11  14:17  星期三
- * version 1.0
- */
+
 public class SortList<T> implements Comparator<T> {
 
     private String propertyName;

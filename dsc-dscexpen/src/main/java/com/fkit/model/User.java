@@ -3,13 +3,7 @@ package com.fkit.model;
 import javax.persistence.*;
 import java.io.Serializable;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-03-27  16:44  星期二
- * version 1.0
- */
+
 
 @Table(name = "t_users")
 public class User implements Serializable{

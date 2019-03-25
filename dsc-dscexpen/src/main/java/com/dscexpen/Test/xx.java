@@ -1,12 +1,6 @@
 package com.dscexpen.Test;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-02-01  16:07  星期四
- * version 1.0
- */
+
 public class xx {
 
     public static void main(String[] args) throws Exception {

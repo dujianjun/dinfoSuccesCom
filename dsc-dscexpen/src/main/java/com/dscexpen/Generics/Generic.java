@@ -3,13 +3,7 @@ package com.dscexpen.Generics;
 
 import org.apache.log4j.Logger;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-05-24  10:16  星期四
- * version 1.0
- */
+
 public class Generic<T> {
 
     Logger logger =Logger.getLogger(Generic.class);

@@ -5,13 +5,7 @@ import java.util.Date;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-02-01  16:13  星期四
- * version 1.0
- */
+
 public class TestScheduledThreadPoolExecutor {
     private static SimpleDateFormat format=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 

@@ -5,13 +5,7 @@ import net.sf.json.JSONArray;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2019-01-16  16:35  星期三
- * version 1.0
- */
+
 public class JsonTest {
 
     /**

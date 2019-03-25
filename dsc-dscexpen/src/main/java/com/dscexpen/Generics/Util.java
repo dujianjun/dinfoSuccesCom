@@ -1,12 +1,6 @@
 package com.dscexpen.Generics;
 
-/**
- * Description:1111
- * Program Name:
- * author :dujianjun
- * Date:2018-05-24  12:38  星期四
- * version 1.0
- */
+
 public class Util {
 
     public static <K, V> boolean compare(Pair<K, V> p1, Pair<K, V> p2) {

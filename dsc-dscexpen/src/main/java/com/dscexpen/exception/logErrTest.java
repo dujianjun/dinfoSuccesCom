@@ -3,13 +3,7 @@ package com.dscexpen.exception;
 
 import org.apache.log4j.Logger;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-06-06  14:55  星期三
- * version 1.0
- */
+
 public class logErrTest {
 
 

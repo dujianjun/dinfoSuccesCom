@@ -6,13 +6,7 @@ import org.springframework.util.StringUtils;
 
 import java.io.*;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2019-03-20  12:10  星期三
- * version 1.0
- */
+
 public class Base64Test {
 
     private  static String path = null;

@@ -4,12 +4,7 @@ import java.util.Calendar;
 import java.util.Date;  
 import java.util.Timer;  
 
-  
-/** 
- * 任务管理 
- * @author admin_Hzw 
- * 
- */  
+
 public class TimerManager {  
   
     /**

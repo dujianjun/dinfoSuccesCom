@@ -2,13 +2,7 @@ package com.fkit.model;
 
 import java.util.List;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-03-28  14:27  星期三
- * version 1.0
- */
+
 public class DataGridResult {
 
     public DataGridResult() {

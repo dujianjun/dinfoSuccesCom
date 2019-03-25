@@ -1,12 +1,6 @@
 package com.dscexpen.sort;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-07-11  14:27  星期三
- * version 1.0
- */
+
 public class Book {
 
     private Long id;//书本编号

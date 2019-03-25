@@ -4,13 +4,7 @@ package com.dscexpen.IRR年化收益率;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Description:
- * Program Name: 计算契约利率的工具类
- * author :dujianjun
- * Date:2018-01-31  17:32  星期三
- * version 1.0
- */
+
 public class IrrUtils {
 
 

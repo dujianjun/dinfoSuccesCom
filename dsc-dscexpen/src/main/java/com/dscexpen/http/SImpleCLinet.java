@@ -7,13 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.io.UnsupportedEncodingException;
 
-/**
- * Description:
- * Program Name:
- * author :dujianjun
- * Date:2018-06-08  15:12  星期五
- * version 1.0
- */
+
 public class SImpleCLinet {
 
     private static void RestTemplateVisit() {
@@ -37,7 +31,7 @@ public class SImpleCLinet {
 
             //利用容器实现数据封装，发送
             HttpEntity<String> entity = new HttpEntity<String>("111111aaaaaaaaaaa", requestHeaders);
-            returnXml = restTemplate.postForObject("http://localhost:8086/GxFundApi/yx/yncYxRepaymentStatus", entity, String.class);
+            returnXml = restTemplate.postForObject("http://localhost:8086/11/22/aa", entity, String.class);
 
             System.out.println("*****************************************");
             // 转码原因：RestTemplate默认是使用org.springframework.http.converter.StringHttpMessageConverter来解析

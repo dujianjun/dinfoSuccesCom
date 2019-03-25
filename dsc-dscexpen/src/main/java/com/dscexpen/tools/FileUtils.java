@@ -2,13 +2,7 @@ package com.dscexpen.tools;
 
 //import org.apache.commons.fileupload.FileItem;
 
-/**
- * 文件上传方法
- * @author by 侯兴超
- * user:Administrator
- * at 2015年1月29日 上午10:22:14
- * TaskManagement/com.ultrapower.common.utils/FileUtils.java
- */
+
 public class FileUtils {
 	/*private static Logger logger = Logger.getLogger(FileUtils.class);
 //	public static final String defaultPath = PropertyConfig.getProperty("FILEPATH");
