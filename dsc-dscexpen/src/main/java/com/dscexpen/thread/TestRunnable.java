@@ -27,11 +27,11 @@ public class TestRunnable implements Runnable {
 	public static void main(String[]args){
 		
 		
-//		TestRunnable tr=new TestRunnable();
-//		Thread t1=new Thread(tr,"a");
-//		Thread t2=new Thread(tr, "b");
-//			t1.start();
-//			t2.start();
+		TestRunnable tr=new TestRunnable();
+		Thread t1=new Thread(tr,"a");
+		Thread t2=new Thread(tr, "b");
+			t1.start();
+			t2.start();
 		
 		
 	}
