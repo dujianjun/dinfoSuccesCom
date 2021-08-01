@@ -12,6 +12,7 @@
     <modules>
         <module>dsc-dscstart</module>
         <module>dsc-common</module>
+        <module>dsc-dscexpen</module>
     </modules>
 
     <profiles>
